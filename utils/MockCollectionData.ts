@@ -6,7 +6,7 @@ const collections = [
         products: [
             {
                 id: "doze2-basica-negra",
-                name: "Basica Negra",
+                name: "Camiseta Negra",
                 price: 110000,
                 discountedPrice: 66000,
                 image: "/collections/Doze2/Basica_negra/basica_negra1.jpg",
@@ -19,8 +19,8 @@ const collections = [
             {
                 id: "doze2-camisa-twelfth",
                 name: "Camisa Twelfth",
-                price: 110000,
-                discountedPrice: 66000,
+                price: 145000,
+                discountedPrice: 87000,
                 image: "/collections/Doze2/Camisa_Twelfth/camisa_twelfth1.jpg",
                 images: [
                     "/collections/Doze2/Camisa_Twelfth/camisa_twelfth1.jpg",
@@ -103,7 +103,7 @@ const collections = [
         products: [
             {
                 id: "anarzy-chaleco",
-                name: "Chaleco",
+                name: "Chaleco Anarzy",
                 price: 180000,
                 discountedPrice: 90000,
                 image: "/collections/Anarzy/chaleco/chaleco1.JPG",
@@ -120,8 +120,8 @@ const collections = [
         image: "/collections/Snazzy/abecedario/snazzy_abecedario2.jpg",
         products: [
             {
-                id: "snazzy-abecedario",
-                name: "Abecedario",
+                id: "snazzy-Emblema",
+                name: "Camiseta emblema",
                 price: 90000,
                 discountedPrice: 45000,
                 image: "/collections/Snazzy/abecedario/snazzy_abecedario1.jpg",
@@ -134,13 +134,39 @@ const collections = [
             {
                 id: "snazzy-hilos",
                 name: "Camiseta hilos",
-                price: 90000,
-                discountedPrice: 45000,
+                price: 70000,
+                discountedPrice: 50000,
                 image: "/collections/Snazzy/hilos/snazzy_hilos2.jpg",
                 images: [
                     "/collections/Snazzy/hilos/snazzy_hilos1.jpg",
                     "/collections/Snazzy/hilos/snazzy_hilos2.jpg",
                     "/collections/Snazzy/hilos/snazzy_hilos3.jpg",
+                ],
+            },
+            ,
+            {
+                id: "pantaloneta-hilos",
+                name: "pantaloneta hilos",
+                price: 70000,
+                discountedPrice: 50000,
+                image: "/collections/Snazzy/pantaloneta_hilos/pantaloneta_hilos1.jpg",
+                images: [
+                    "/collections/Snazzy/pantaloneta_hilos/pantaloneta_hilos1.jpg",
+                    "/collections/Snazzy/pantaloneta_hilos/pantaloneta_hilos2.jpg",
+                    "/collections/Snazzy/pantaloneta_hilos/pantaloneta_hilos3.jpg",
+                ],
+            },
+            ,
+            {
+                id: "pantaloneta-emblema",
+                name: "Pantaloneta emblema",
+                price: 70000,
+                discountedPrice: 50000,
+                image: "/collections/Snazzy/pantaloneta_emblema/pantaloneta_emblema1.jpg",
+                images: [
+                    "/collections/Snazzy/pantaloneta_emblema/pantaloneta_emblema1.jpg",
+                    "/collections/Snazzy/pantaloneta_emblema/pantaloneta_emblema2.jpg",
+                    "/collections/Snazzy/pantaloneta_emblema/pantaloneta_emblema3.jpg",
                 ],
             },
         ],
