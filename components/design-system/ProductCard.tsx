@@ -2,7 +2,8 @@ import * as React from "react"
 import Image from "next/image"
 import { cn, formatPrice } from "@/lib/utils"
 import { Button } from "./Atoms/Button"
-import { subtitleTypography, titleTypography } from "./variables"
+import { CardProductTitle } from "./CardProductTitle"
+import { subtitleTypography } from "./variables"
 
 // ─── Types ───────────────────────────────────────────────────────────────────
 
@@ -67,9 +68,7 @@ function ProductCard({
         )}
 
         <div className="absolute inset-x-0 bottom-0 z-10 p-4 pb-5">
-          <h4 className={cn(titleTypography, "text-xl uppercase leading-[1.05] tracking-wide")}>
-            {name}
-          </h4>
+          <CardProductTitle name={name} />
           <p
             className={cn(
               subtitleTypography,

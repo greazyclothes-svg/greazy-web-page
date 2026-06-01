@@ -145,7 +145,7 @@ const collections = [
             },
             {
                 id: "pantaloneta-hilos",
-                name: "pantaloneta hilos",
+                name: "Shorts hilos",
                 price: 70000,
                 discountedPrice: 50000,
                 image: "/collections/Snazzy/pantaloneta_hilos/pantaloneta_hilos1.jpg",
@@ -157,7 +157,7 @@ const collections = [
             },
             {
                 id: "pantaloneta-emblema",
-                name: "Pantaloneta emblema",
+                name: "Shorts emblema",
                 price: 70000,
                 discountedPrice: 50000,
                 image: "/collections/Snazzy/pantaloneta_emblema/pantaloneta_emblema1.jpg",

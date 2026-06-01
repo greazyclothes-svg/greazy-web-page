@@ -1,11 +1,14 @@
 import { cva } from "class-variance-authority";
 
 // ─── Tipografía ──────────────────────────────────────────────────────────────
-// Clases CSS definidas en app/globals.css (.grzy-title, .grzy-subtitle, .grzy-body).
+// Clases CSS definidas en app/globals.css (.grzy-title, .grzy-title-card, .grzy-subtitle, .grzy-body).
 // Para cambiar fuente/color global: edita --grzy-* en :root de app/globals.css.
 
 /** Títulos principales (ej. nombre de colección en hero) */
 export const titleTypography = "grzy-title";
+
+/** Nombre de producto en tarjetas — misma tipografía/color que title, más pequeño y multilínea */
+export const cardTitleTypography = "grzy-title-card";
 
 /** Subtítulos */
 export const subtitleTypography = "grzy-subtitle";

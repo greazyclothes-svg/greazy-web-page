@@ -19,6 +19,7 @@ export type { ProductCardProps } from "./ProductCard"
 
 export {
   titleTypography,
+  cardTitleTypography,
   subtitleTypography,
   bodyTypography,
   titleOnSurface,
