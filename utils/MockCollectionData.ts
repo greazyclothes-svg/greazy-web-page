@@ -143,7 +143,6 @@ const collections = [
                     "/collections/Snazzy/hilos/snazzy_hilos3.jpg",
                 ],
             },
-            ,
             {
                 id: "pantaloneta-hilos",
                 name: "pantaloneta hilos",
@@ -156,7 +155,6 @@ const collections = [
                     "/collections/Snazzy/pantaloneta_hilos/pantaloneta_hilos3.jpg",
                 ],
             },
-            ,
             {
                 id: "pantaloneta-emblema",
                 name: "Pantaloneta emblema",
